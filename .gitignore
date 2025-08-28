@@ -17,14 +17,3 @@ venv/
 *.tfstate.*
 *.tfvars
 
-# Ignorar archivos de configuración de credenciales
-*.pem
-*.key
-
-# Ignorar directorios de Terraform
-.terraform/
-
-# Ignorar archivos de configuración de IDEs
-.idea/
-.vscode/
-*.swp
