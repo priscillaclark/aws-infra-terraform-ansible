@@ -1,0 +1,30 @@
+
+# AWS credentials
+*.pem
+*.key
+.env
+aws_access_keys.txt
+
+# Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+
+# Python
+__pycache__/
+*.pyc
+venv/
+*.tfstate.*
+*.tfvars
+
+# Ignorar archivos de configuración de credenciales
+*.pem
+*.key
+
+# Ignorar directorios de Terraform
+.terraform/
+
+# Ignorar archivos de configuración de IDEs
+.idea/
+.vscode/
+*.swp
